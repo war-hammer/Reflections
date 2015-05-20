@@ -1,0 +1,4 @@
+Question 1.
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By viewing the diff I was clearly able to contrast the changes made between the two files, the time I saved was huge compared to manually searching and also far less prone to human error through oversight.
