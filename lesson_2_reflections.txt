@@ -1,0 +1,35 @@
+Question 1.
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository an empty Git repository .git file was created in my current directory and this will allow me to store commits.
+
+Question 2.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a temporary location to set up what to commit later in to the repository which stores past commits, the working directory is where I can make changes in the code itself before adding them to the staging area.
+
+Question 3.
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the staging area to check I have one commit per logical change by using the git diff --staged command to compare the staging area against the most recent commit.
+
+Question 4.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If I wanted to keep a working program available at all times, I could do so on the master branch and make mods and experiments on separate branches.
+
+Question 5.
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help to trace through each logical change in the non linear structure of multiple branch histories by displaying each commits parent through reachability. Diagrams will help to prevent commits from becoming lost or orphaned.
+
+Question 6.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results in a unified commit at the head, which has all the past commits of all the merges collected together.
+The diagram represents the parent of each commit and how they are joined together.
+
+Question 7.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging has the benefit of saving a lot of time by finding repeating code for me and merging it. Cons may include Gits inability to understand what I was intending to achieve.
