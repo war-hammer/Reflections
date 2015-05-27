@@ -30,3 +30,11 @@ a remote repository on GitHub or a local repository.
 Branching allows a branch to continue along the master or
 create a new branch which will not affect the master branch 
 unless the master is chosen to merge.
+
+Question 4.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A benefit of having a copy of the last known state of the remote
+stored locally is checking how different your progress is compared
+to the remotes last position when off-line.
